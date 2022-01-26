@@ -203,5 +203,6 @@ document.addEventListener("keydown", e=>{
 restartBtn.addEventListener("click", ()=> {
     playGround.innerHTML = "";
     gameText.style.display = "none";
+    scoreDisplay.innerHTML = 0;
     init();
 })
